@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    border: 5px;
+    width: fit-content;
+}
+div{
+    display: flex;
+    
+}
+span{
+    width: 5vw;
+    height: 9vh;
+}
+div span:nth-child(odd){
+    background-color: green;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    padding: 10px;
+}
+div span:nth-child(even){
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    padding: 10px;
+}
+.container span:nth-child(odd){
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+.container span:nth-child(even){
+    background-color: green;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+.div span:nth-child(even){
+    color: white;
+}
+.div span:nth-child(odd){
+    color: white;
+}
